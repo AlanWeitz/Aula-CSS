@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+
+header li {
+    display: inline;
+}
+
+.artigo{
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.cabeçalho-titulo {
+    color: white;
+}
+
+.cabeçalho-subtitulo-esporte {
+    color:rgb(255, 111, 111);
+}
+
+.cabeçalho-subtitulo-economia {
+    color: #9fcc36;
+}
+
+.img {
+    width: 33%;
+}
+
+.esportes {
+    background: radial-gradient(circle at 10% 20%, rgb(255, 197, 118) 0%, rgb(254, 106, 103) 47.7%, rgb(240, 23, 23) 92.3%);;
+    text-align: center;
+}
+
+.time {
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+.titulo-esporte {
+    font-size: 40px;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+.lermais-e {
+    background-color: rgba(255, 0, 0, 0.3);
+    color: rgba(255, 255, 255);
+}
+
+.lermais-ec {
+    background-color: #9fcc36;
+    color: white;
+}
+
+.lermais-en {
+    background-color: rgb(21, 21, 207);
+    color: white;
+}
+
+.lermais-te {
+    background-color: rgb(111, 3, 128);
+    color: white;
+}
+
+.economia {
+    background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    text-align: center;
+}
+
+.titulo-economia {
+    font-size: 40px;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+.time-economia {
+    background-color: #9fcc36;
+}
+
+.entretenimento {
+    background: linear-gradient(135deg, rgb(82, 229, 231) 10%, rgb(19, 12, 183) 100%);
+    text-align: center;
+}
+
+.time-entretenimento {
+    background-color: rgb(21, 21, 207);
+}
+
+.cabeçalho-subtitulo-entrenimento {
+    background-color: rgb(21, 21, 207);
+}
+
+.titulo-entretenimento {
+    font-size: 40px;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+.tecnologia {
+    background: radial-gradient(circle at 10% 20%, rgb(236, 158, 248) 0%, rgb(131, 83, 241) 90.1%);
+    text-align: center;
+}
+
+.titulo-tecnologia {
+    font-size: 40px;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+.time-tecnologia {
+    background-color: rgb(111, 3, 128)
+}
+
+.cabeçalho-subtitulo-tecnologia {
+    color: rgb(111, 3, 128)
+}
